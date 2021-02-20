@@ -1,0 +1,23 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "Learning node.js",
+  "main": "app.js",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricTarantino/nodejs-api-development-for-beginners.git"
+  },
+  "author": "Eric van Lessen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EricTarantino/nodejs-api-development-for-beginners/issues"
+  },
+  "homepage": "https://github.com/EricTarantino/nodejs-api-development-for-beginners#readme"
+}
