@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+const postRoutes = require('routes/post');
+
 app.get('/', (req, res) => {
   res.send('hello world from express');
 });
