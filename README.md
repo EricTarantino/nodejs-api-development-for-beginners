@@ -22,4 +22,6 @@ Show latest package version: npm show {pkg} version<br/>
 Eslint globally: sudo npm i -g eslint<br/>
 [Wesbos ESLint + Prettier + VS Code — The Perfect Setup Youtube](https://www.youtube.com/watch?v=lHAeK8t94as)<br/>
 [Wesbos ESLint + Prettier + VS Code — The Perfect Setup GitHub](https://github.com/wesbos/eslint-config-wesbos)<br/>
-Delete local branch: git branch -d local-branch
+Delete local branch: git branch -d local-branch<br/>
+[How To Install MongoDB on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04)<br/>
+[Robo3T](https://studio3t.com/download/?source=robomongo&medium=homepage)<br/>

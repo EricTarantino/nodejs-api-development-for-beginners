@@ -12,7 +12,7 @@ const myOwnMiddleware = (req, res, next) => {
 app.use(myOwnMiddleware);
 
 // bring in routes
-const { getPosts } = require('./routes/post');
+const { getPosts } = require('../routes/post');
 
 // middleware
 app.use(morgan('dev'));
