@@ -19,3 +19,5 @@ npx install-peerdeps --dev eslint-config-airbnb-base
 <br/>
 Show latest package version: npm show {pkg} version<br/>
 [Prettier rules](https://prettier.io/docs/en/options.html)<br/>
+Eslint globally: sudo npm i -g eslint<br/>
+eslint --init
