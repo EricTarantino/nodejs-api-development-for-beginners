@@ -13,3 +13,7 @@ Ventur<br/><br/>
 [Git remote](https://github.com/git-guides/git-remote)<br/>
 [Git merge](https://git-scm.com/docs/git-merge)<br/>
 [Linter](https://www.youtube.com/watch?v=SydnKbGc7W8)<br/>
+Formatting: npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node<br/>
+[Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb)<br/>
+npx install-peerdeps --dev eslint-config-airbnb-base eslint-plugin-import eslint-plugin-vue
+<br/>
