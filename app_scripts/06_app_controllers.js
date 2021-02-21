@@ -5,7 +5,7 @@ const app = express();
 const morgan = require('morgan');
 
 // bring in routes
-const postRoutes = require('./routes/post');
+const postRoutes = require('../routes/post');
 
 // middleware
 app.use(morgan('dev'));
