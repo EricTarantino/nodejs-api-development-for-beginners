@@ -22,3 +22,4 @@ Show latest package version: npm show {pkg} version<br/>
 Eslint globally: sudo npm i -g eslint<br/>
 [Wesbos ESLint + Prettier + VS Code — The Perfect Setup Youtube](https://www.youtube.com/watch?v=lHAeK8t94as)<br/>
 [Wesbos ESLint + Prettier + VS Code — The Perfect Setup GitHub](https://github.com/wesbos/eslint-config-wesbos)<br/>
+Delete local branch: git branch -d local-branch

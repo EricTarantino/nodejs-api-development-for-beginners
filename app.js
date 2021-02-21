@@ -1,15 +1,13 @@
-const fs = require('fs');
-// const express = require('express');
+const express = require('express');
 
-const fileName = 'target.txt';
+const app = express();
 
-const errHandler = (err) => console.log(err);
-
-const dataHandler = (data) => console.log(data.toString());
-
-fs.readFile(fileName, (err, data) => {
-  if (err) errHandler(err);
-  dataHandler(data);
+app.get('/', (req, res) => {
+  res.send('hello world from express');
 });
 
-console.log('Nodejs async programming');
+const port = 8080;
+
+app.listen(port, () => {
+  console.log(`Express listening at port: ${port}`);
+});

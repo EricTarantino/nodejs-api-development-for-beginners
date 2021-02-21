@@ -1,5 +1,5 @@
 {
-  "name": "basic",
+  "name": "nodeapi",
   "version": "1.0.0",
   "description": "Learning node.js",
   "main": "app.js",
@@ -22,7 +22,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "dev": "node app.js",
+    "dev": "nodemon app.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
