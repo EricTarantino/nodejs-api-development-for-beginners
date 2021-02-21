@@ -17,4 +17,5 @@ Formatting: npm i -D eslint prettier eslint-plugin-prettier eslint-config-pretti
 [Airbnb style guide](https://www.npmjs.com/package/eslint-config-airbnb)<br/>
 npx install-peerdeps --dev eslint-config-airbnb-base
 <br/>
-Show latest package version: npm show {pkg} version
+Show latest package version: npm show {pkg} version<br/>
+[Prettier rules](https://prettier.io/docs/en/options.html)<br/>
