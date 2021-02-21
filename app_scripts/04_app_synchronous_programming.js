@@ -3,13 +3,17 @@ const fs = require('fs');
 
 const fileName = 'target.txt';
 
-const errHandler = (err) => console.log(err);
+const data = fs.readFileSync(fileName);
+console.log(data.toString());
 
-const dataHandler = (data) => console.log(data.toString());
-
+/*
 fs.readFile(fileName, (err, data) => {
-  if (err) errHandler(err);
-  dataHandler(data);
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(data.toString());
+  }
 });
+*/
 
 console.log('Nodejs async programming');
