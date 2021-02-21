@@ -19,7 +19,7 @@ mongoose.connection.on('err', (err) => {
 });
 
 // bring in routes
-const postRoutes = require('./routes/post');
+const postRoutes = require('../routes/post');
 
 // middleware
 app.use(morgan('dev'));
