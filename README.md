@@ -4,6 +4,7 @@ ESLint<br/>
 Git Extension Pack (E.g. GitLense)<br/>
 Git Graph<br/>
 Kite AutoComplete AI<br/>
+Prettier<br/>
 Project Manager<br/>
 Remote Containers<br/>
 Ventur<br/><br/>
@@ -11,3 +12,4 @@ Ventur<br/><br/>
 [Create a remote branch](https://www.w3docs.com/snippets/git/how-to-create-a-remote-branch-in-git.html)<br/>
 [Git remote](https://github.com/git-guides/git-remote)<br/>
 [Git merge](https://git-scm.com/docs/git-merge)<br/>
+[Linter](https://www.youtube.com/watch?v=SydnKbGc7W8)<br/>
