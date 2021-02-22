@@ -4,9 +4,12 @@ const { validationResult } = require('express-validator');
 const Post = require('../models/post');
 
 exports.getPosts = (req, res) => {
-  res.json({
-    posts: [{ title: 'First post' }, { title: 'Second post' }],
-  });
+  Post.find()
+    .select('_id title body')
+    .then((posts) => {
+      res.json({ posts });
+    })
+    .catch((errors) => console.log(errors));
 };
 
 exports.createPost = (req, res) => {
@@ -23,6 +26,6 @@ exports.createPost = (req, res) => {
       });
     });
   } catch (error) {
-    res.json({ err: error });
+    res.json({ error });
   }
 };
