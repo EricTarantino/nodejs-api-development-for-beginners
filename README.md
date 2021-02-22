@@ -25,3 +25,4 @@ Eslint globally: sudo npm i -g eslint<br/>
 Delete local branch: git branch -d local-branch<br/>
 [How To Install MongoDB on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04)<br/>
 [Robo3T](https://studio3t.com/download/?source=robomongo&medium=homepage)<br/>
+[express-validator](https://express-validator.github.io/docs/)
