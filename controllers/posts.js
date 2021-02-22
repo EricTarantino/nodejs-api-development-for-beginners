@@ -1,3 +1,6 @@
+// ...rest of the initial code omitted for simplicity.
+const { validationResult } = require('express-validator');
+
 const Post = require('../models/post');
 
 exports.getPosts = (req, res) => {
@@ -7,7 +10,19 @@ exports.getPosts = (req, res) => {
 };
 
 exports.createPost = (req, res) => {
-  console.log('create post');
+  // Finds the validation errors in this request and wraps them in an object with handy functions
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ errors: errors.array() });
+  }
   const post = new Post(req.body);
-  console.log('CREATED A NEW POST', post);
+  try {
+    post.save().then((result) => {
+      res.status(200).json({
+        post: result,
+      });
+    });
+  } catch (error) {
+    res.json({ err: error });
+  }
 };

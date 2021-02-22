@@ -11,7 +11,7 @@ const postSchema = new mongoose.Schema({
     type: String,
     required: 'Title is required',
     minLength: 4,
-    maxLength: 200,
+    maxLength: 2000,
   },
 });
 
