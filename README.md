@@ -1,4 +1,4 @@
-Visual studio code extensions<br/><br/>
+Visual studio code extensions:<br/>
 Docker<br/>
 ESLint<br/>
 Git Extension Pack (E.g. GitLense)<br/>
