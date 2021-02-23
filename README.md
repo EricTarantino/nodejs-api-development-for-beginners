@@ -7,11 +7,7 @@
 [Prettier](https://github.com/prettier/prettier-vscode)<br/>
 [Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager)<br/>
 [Remote Containers](https://code.visualstudio.com/docs/remote/containers)<br/>
-[Ventur](https://vuejs.github.io/vetur/)<br/><br/>
-[Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)<br/>
-[Create a remote branch](https://www.w3docs.com/snippets/git/how-to-create-a-remote-branch-in-git.html)<br/>
-[Git remote](https://github.com/git-guides/git-remote)<br/>
-[Git merge](https://git-scm.com/docs/git-merge)<br/>
+[Ventur](https://vuejs.github.io/vetur/)<br/>
 ## 2 Code formatting
 ### 2.1 Step-by-step
 [Linter](https://www.youtube.com/watch?v=SydnKbGc7W8)<br/>
@@ -29,3 +25,8 @@ Delete local branch: git branch -d local-branch<br/>
 [How To Install MongoDB on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04)<br/>
 [Robo3T](https://studio3t.com/download/?source=robomongo&medium=homepage)<br/>
 [express-validator](https://express-validator.github.io/docs/)
+## 3 Git
+[Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)<br/>
+[Create a remote branch](https://www.w3docs.com/snippets/git/how-to-create-a-remote-branch-in-git.html)<br/>
+[Git remote](https://github.com/git-guides/git-remote)<br/>
+[Git merge](https://git-scm.com/docs/git-merge)<br/>
